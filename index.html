@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Interactive Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <header>
+        <h1>3D Interactive Experience</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="scene">
+                <div class="cube" id="main-cube">
+                    <div class="face front">Front</div>
+                    <div class="face back">Back</div>
+                    <div class="face right">Right</div>
+                    <div class="face left">Left</div>
+                    <div class="face top">Top</div>
+                    <div class="face bottom">Bottom</div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="rotate-btn">Rotate Cube</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="CSS 3D Transform">
+                            <h3>Hover Me</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>3D effects created with CSS transforms!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="JavaScript 3D">
+                            <h3>Hover Me</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Amazing 3D interactions with JavaScript!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pure HTML CSS JS">
+                            <h3>Hover Me</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Pure HTML, CSS and JS - no libraries!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>3D Gallery</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">Item 1</div>
+                    <div class="carousel-item">Item 2</div>
+                    <div class="carousel-item">Item 3</div>
+                    <div class="carousel-item">Item 4</div>
+                    <div class="carousel-item">Item 5</div>
+                    <div class="carousel-item">Item 6</div>
+                </div>
+                <div class="carousel-nav">
+                    <button id="prev">Previous</button>
+                    <button id="next">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="form-3d-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Amit Kadam" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="kadamamit462@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with HTML, CSS, and JavaScript | piyush kadam</p>
+        <p>© 2025 Amit Kadam. All rights reserved. <a href="" target="_blank">View Documentation</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
