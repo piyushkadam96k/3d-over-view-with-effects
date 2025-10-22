@@ -2,6 +2,7 @@
 
 An immersive, responsive website featuring CSS/JS-based 3D effects, micro-interactions, and performant visuals — no external 3D libraries required. Ideal for portfolios, demos, and creative experiments.
 
+live preview : https://piyushkadam96k.github.io/3d-over-view-with-effects/
 
 ## ✨ Highlights & Experience
 
